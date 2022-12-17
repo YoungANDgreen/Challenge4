@@ -11,3 +11,4 @@ Lessons learned:
 
 2. Pseudocoding out the framework and functionality of the code streamlined the developing process by narrowing the scope of what functions performed to achieve the Minimal Viable Product.
 
+![image](https://user-images.githubusercontent.com/110740700/208265831-c3003e23-7be0-4288-a64f-4257910f00ea.png)
