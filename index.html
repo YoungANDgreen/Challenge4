@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Code Quiz</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+
+<body>
+
+    <div id="container">
+
+        <!-- Creates a div that contains the start button -->
+
+        <div id='start'> Start Quiz!</div>
+
+        <!-- Creates a div that contains the quesiton and timer elements -->
+
+        <div id='quiz' style="display: none;">
+
+            <div id='question'>
+
+                <p> Question </p>
+
+            </div>
+
+            <!-- Creates a div that contains the answer choices  -->
+
+            <div id="choices">
+
+                <div class="choice" id="A" onclick="checkAnswer('A')">A</div>
+
+                <div class="choice" id="B" onclick="checkAnswer('B')">B</div>
+
+                <div class="choice" id="C" onclick="checkAnswer('C')">C</div>
+
+                <div class="choice" id="D" onclick="checkAnswer('D')">D</div>
+
+            </div>
+
+            <!-- Creates div that houses the timer -->
+
+            <div id='timer'>
+
+                <div id='counter'></div>
+
+                <div id='btimeGauge'></div>
+
+                <div id="timeGauge"></div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- Creates a div that houses another div keeping track of quesiton progress -->
+
+        <div id="progress">
+
+            <div class="prog"></div>
+
+        </div>
+
+        <!-- Creates a div that contains the score of the quiz -->
+
+        <div id="score" style="display: none;">
+
+            <img src="./assets/crown.png">
+
+            <p>50%</p>
+
+        </div>
+
+    </div>
+    <div id="highscore"></div>
+
+    <script src="index.js"></script>
+
+</body>
+
+
+
+</html>
